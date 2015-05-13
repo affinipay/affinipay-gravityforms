@@ -1,0 +1,24 @@
+<h2>Requires:</h2>
+<ul>
+	<li>Wordpress 4.1+</li>
+	<li>Gravity Forms 1.8.9+</li>
+	<li>PHP Multibyte String Extension</li>
+	<li>PHP Mcrypt Extension</li>
+	<li>SSL on the page with the credit card field.</li>
+</ul>
+<h2>Install/Setup:</h2>
+<ol>
+<li>Unzip archive and copy the gravity-forms-chargeio directory into the Wordpress plugins directory.</li>
+<li>Activate the plugin.</li>
+<li>Enter in the ChargeIO API credentials. (Account Type will be selected in the ChargeIO feed later.)</li>
+<li>Select Live or Test, and save the settings.</li>
+<li>Create a Gravity form to collect payment.</li>
+<li>Create a ChargeIO feed for the form.
+	<ul>
+		<li>Go to Forms->ChargeIO and click "Add New"</li>
+		<li>This is where you tell Gravity Forms how to map the form fields to the Chargio fields. Mapping is only needed for fields other than the CC info that are required by ChargeIO to complete a transaction.</li>
+		<li>Select a ChargeIO account that the payment will post to.</li>
+		<li>Select a currency. Default is USD if no selection is made.</li>
+	</ul>
+</li>
+</ol>
