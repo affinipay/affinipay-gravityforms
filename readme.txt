@@ -47,6 +47,10 @@ Requires WordPress 4.1, PHP 5.3, and Gravity Forms 1.8.1. Works with WordPress M
 
 This section describes how to install and setup the Gravity Forms ChargeIO Add-On. Be sure to follow *all* of the instructions in order for the Add-On to work properly.
 
+** Requires **
+PHP Multibyte String Extension
+PHP Mcrypt Extension
+
 1. Make sure that Gravity Forms is activated
 2. Upload the `gravity-forms-chargeio` folder to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress.
