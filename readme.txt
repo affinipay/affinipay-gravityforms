@@ -1,5 +1,9 @@
+=== Deprecated ===
+
+The Gravity Forms plugin for AffiniPay, LawPay, and CPACharge has been deprecated. AffiniPay no longer maintains or supports this repo.
+
 === Gravity Forms + ChargeIO ===
-Tags: form, forms, gravity, gravity form, gravity forms, gravityforms, chargeio, payment, payments, subscribe, subscriptions, recurring billing, paypal, authorize.net, credit cards, online payment
+Tags: form, forms, gravity, gravity form, gravity forms, gravityforms, chargeio, payment, payments, subscribe, subscriptions, recurring billing, paypal, authorize.net, credit cards, online payment, deprecated
 Requires at least: 3.6
 Tested up to: 4.1
 Beta tag: 0.0.1
@@ -82,7 +86,7 @@ This code may also be in a file called shortcodes.php or ThemeShortcodes.php.
 
 2. Another theme or plugin is modifying the standard Gravity Forms dropdowns and removing the classes, which breaks the ChargeIO JS. You'll want to contact the theme author to learn how to prevent this.
 
-3. You've embedded your Gravity Form directly into the page and missed one of the Gravity Forms instructions Ñ happens to the best of us! Here are the instructions: http://www.gravityhelp.com/documentation/page/Embedding_A_Form
+3. You've embedded your Gravity Form directly into the page and missed one of the Gravity Forms instructions Ã‘ happens to the best of us! Here are the instructions: http://www.gravityhelp.com/documentation/page/Embedding_A_Form
 
 4. Another plugin is preventing the JS from working. Follow the procedure outlined here by Gravity Forms in order to troubleshoot: http://www.gravityhelp.com/documentation/page/Testing_for_a_Theme/Plugin_Conflict with one minor change -- For plugin conflicts, deactivate all plugins except Gravity Forms and Gravity Forms + ChargeIO.
 
